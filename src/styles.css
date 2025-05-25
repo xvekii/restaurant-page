@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'Luckiest Guy';
+    src: url('assets/fonts/LuckiestGuy-Regular.woff2') format('woff2'),
+        url('assets/fonts/LuckiestGuy-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Baloo 2';
+    src: url('assets/fonts/Baloo2-Regular.woff2') format('woff2'),
+        url('assets/fonts/Baloo2-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Baloo 2';
+    src: url('assets/fonts/Baloo2-Medium.woff2') format('woff2'),
+        url('assets/fonts/Baloo2-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Baloo 2';
+    src: url('assets/fonts/Baloo2-SemiBold.woff2') format('woff2'),
+        url('assets/fonts/Baloo2-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Baloo 2';
+    src: url('assets/fonts/Baloo2-Bold.woff2') format('woff2'),
+        url('assets/fonts/Baloo2-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  width: 100%;
+  opacity: 0.8;
+  position: fixed;
+  background: seashell;
+  display: flex;
+}
+
+.background-img {
+  display: block;
+  max-width: 90vw;
+  max-height: 80vh;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  position: absolute;
+  right: 140px;
+  top: 100px;
+}
