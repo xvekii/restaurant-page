@@ -58,6 +58,15 @@ body {
   display: flex;
 }
 
+h1 {
+  font-family: "Luckiest Guy";
+}
+
+button {
+  font-family: 'Baloo 2'; 
+  font-weight: bold;
+}
+
 .background-img {
   display: block;
   max-width: 90vw;
