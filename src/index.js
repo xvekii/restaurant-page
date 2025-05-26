@@ -1,9 +1,10 @@
 import "./styles.css";
-import bgImg from "./assets/images/background.png";
+import marioImg from "./assets/images/mario.png";
 
-const background = document.createElement("img");
-background.src = bgImg;
-background.classList.add("background-img");
+const imgContainer = document.querySelector(".img-div-right");
+const mainImg = document.createElement("img");
+mainImg.src = marioImg;
+mainImg.classList.add("background-img");
 
-document.body.appendChild(background);
+imgContainer.appendChild(mainImg);
 
