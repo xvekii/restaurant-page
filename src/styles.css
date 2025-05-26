@@ -71,21 +71,60 @@ h1 {
 
 .container {
   display: flex;
+  justify-content: center;
+  gap: 2rem;
+  min-height: 50%;
+  border: 1px solid black;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 0.8rem;
+  padding: 1rem 0rem;
+}
+
+.card-div-left {
+  min-width: 20rem;
+  height: 34rem;
+  align-self: center;
+  /* border: 1px solid purple; */
+  margin-top: 2rem;
+}
+
+#content {
+  height: 81%;
+  border-radius: 20px;
+  background: #FFFBF8;
+  box-shadow: 5px 4px 6px 0px #00000080;
 }
 
 button {
-  font-family: 'Baloo 2'; 
+  font-family: 'Baloo 2';
   font-weight: bold;
+  padding: 0.2rem 0.8rem;
+  font-size: 0.8rem;
+  border: none;
+  border-radius: 3px;
+  box-shadow: 2px 2px 0px black;
+}
+
+.home-btn {
+  background: #06D6A0;
+}
+
+.menu-btn {
+  background: #ffffff;
+}
+
+.contact-btn {
+  background: #EF476F;
 }
 
 .background-img {
   display: block;
   max-width: 90vw;
   max-height: 80vh;
-  /* width: auto;
-  height: auto; */
   object-fit: contain;
-  /* position: absolute;
-  right: 140px;
-  top: 100px; */
+  
 }
