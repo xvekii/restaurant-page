@@ -74,7 +74,6 @@ h1 {
   justify-content: center;
   gap: 2rem;
   min-height: 50%;
-  border: 1px solid black;
 }
 
 nav {
@@ -88,7 +87,6 @@ nav {
   min-width: 20rem;
   height: 34rem;
   align-self: center;
-  /* border: 1px solid purple; */
   margin-top: 2rem;
 }
 
@@ -126,5 +124,16 @@ button {
   max-width: 90vw;
   max-height: 80vh;
   object-fit: contain;
+}
+
+.home-container {
   
+}
+
+.home-greeting-title {
+  font-family: 'Baloo 2';
+  font-weight: bold;
+  font-size: 1.6rem;
+  text-align: center;
+  padding-top: 2rem;
 }
