@@ -12,6 +12,7 @@ const hours = [
 const locationBoldTxt = "Location:";
 const locationTxt = "4600 150th Ave NE, Redmond, WA";
 
+
 export function createHome() {
   // Welcome
   const homeContainer = document.createElement("div");
