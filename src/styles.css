@@ -127,11 +127,39 @@ button {
 }
 
 .home-container {
-  
+  font-family: 'Baloo 2';
+  text-align: center;
+}
+
+.day-span {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-right: 1rem;
+}
+
+.time-span {
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1.2rem;
+}
+
+.open-p {
+  font-size: 1.3rem;
+  text-align: left;
+  margin-left: 1rem;
+  padding: 2rem 0 0.5rem;
+}
+
+.regular-font {
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+.bold-font {
+  font-weight: bold;
 }
 
 .home-greeting-title {
-  font-family: 'Baloo 2';
   font-weight: bold;
   font-size: 1.6rem;
   text-align: center;
