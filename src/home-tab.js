@@ -2,11 +2,11 @@ const welcomeHeading = "Welcome!";
 const openTxt = "Open:";
 const hours = [
     { day: "Sun", time: "8 a.m. \u2013 8 p.m." },
-    { day: "Mon", time: "6 a.m. \u2013 6 p.m." },
-    { day: "Tue", time: "6 a.m. \u2013 6 p.m." },
-    { day: "Wed", time: "6 a.m. \u2013 6 p.m." },
-    { day: "Thu", time: "6 a.m. \u2013 10 p.m." },
-    { day: "Fri", time: "6 a.m. \u2013 10 p.m." },
+    { day: "Mon", time: "7 a.m. \u2013 8 p.m." },
+    { day: "Tue", time: "7 a.m. \u2013 8 p.m." },
+    { day: "Wed", time: "7 a.m. \u2013 8 p.m." },
+    { day: "Thu", time: "7 a.m. \u2013 10 p.m." },
+    { day: "Fri", time: "7 a.m. \u2013 10 p.m." },
     { day: "Sat", time: "8 a.m. \u2013 10 p.m." },
   ];
 const locationBoldTxt = "Location:";
