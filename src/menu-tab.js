@@ -51,7 +51,7 @@ const drinks = [
 const menuHeading = "Menu";
 const mainTxt = "Main";
 
-export function addMeals() {
+export function createMenu() {
   // Menu
   const menuContainer = document.createElement("div");
   menuContainer.classList.add("home-container", "menu-container");
