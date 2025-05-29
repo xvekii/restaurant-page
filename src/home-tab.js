@@ -1,13 +1,13 @@
 const welcomeHeading = "Welcome!";
 const openTxt = "Open:";
 const hours = [
-    { day: "Sun", time: "8am \u2013 8pm" },
-    { day: "Mon", time: "6am \u2013 6pm" },
-    { day: "Tue", time: "6am \u2013 6pm" },
-    { day: "Wed", time: "6am \u2013 6pm" },
-    { day: "Thu", time: "6am \u2013 10pm" },
-    { day: "Fri", time: "6am \u2013 10pm" },
-    { day: "Sat", time: "8am \u2013 10pm" },
+    { day: "Sun", time: "8 a.m. \u2013 8 p.m." },
+    { day: "Mon", time: "6 a.m. \u2013 6 p.m." },
+    { day: "Tue", time: "6 a.m. \u2013 6 p.m." },
+    { day: "Wed", time: "6 a.m. \u2013 6 p.m." },
+    { day: "Thu", time: "6 a.m. \u2013 10 p.m." },
+    { day: "Fri", time: "6 a.m. \u2013 10 p.m." },
+    { day: "Sat", time: "8 a.m. \u2013 10 p.m." },
   ];
 const locationBoldTxt = "Location:";
 const locationTxt = "4600 150th Ave NE, Redmond, WA";
