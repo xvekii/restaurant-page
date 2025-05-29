@@ -63,7 +63,7 @@ export function addMeals() {
 
   // Main
   const mainPara = document.createElement("p");
-  mainPara.classList.add("open-p", "bold-font");
+  mainPara.classList.add("open-p", "bold-font", "menu-section-titles");
   mainPara.textContent = mainTxt;
   menuContainer.appendChild(mainPara);
 
@@ -83,7 +83,7 @@ export function addMeals() {
   // Sides
   const sidesTxt = "Sides";
   const sidesPara = document.createElement("p");
-  sidesPara.classList.add("open-p", "bold-font");
+  sidesPara.classList.add("open-p", "bold-font", "menu-section-titles");
   sidesPara.textContent = sidesTxt;
   menuContainer.appendChild(sidesPara);
 
@@ -102,7 +102,7 @@ export function addMeals() {
   // Drinks
   const drinksTxt = "Drinks";
   const drinksPara = document.createElement("p");
-  drinksPara.classList.add("open-p", "bold-font");
+  drinksPara.classList.add("open-p", "bold-font", "menu-section-titles");
   drinksPara.textContent = drinksTxt;
   menuContainer.appendChild(drinksPara);
 
