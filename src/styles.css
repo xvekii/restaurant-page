@@ -27,15 +27,6 @@
 
 @font-face {
   font-family: 'Baloo 2';
-  src: url('assets/fonts/Baloo2-SemiBold.woff2') format('woff2'),
-      url('assets/fonts/Baloo2-SemiBold.woff') format('woff');
-  font-weight: 600;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Baloo 2';
   src: url('assets/fonts/Baloo2-Bold.woff2') format('woff2'),
       url('assets/fonts/Baloo2-Bold.woff') format('woff');
   font-weight: bold;
@@ -164,10 +155,6 @@ button:active {
   max-height: 438px;
 }
 
-.menu-section-titles {
-  color: #df1a5d;
-}
-
 .day-span {
   font-weight: bold;
   font-size: 1.2rem;
@@ -208,9 +195,14 @@ button:active {
   text-align: center;
 }
 
+.menu-section-titles {
+  color: #df1a5d;
+  font-size: 1.3rem;
+}
+
 .home-greeting-title {
   font-weight: bold;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   text-align: center;
   padding-top: 2rem;
 }
