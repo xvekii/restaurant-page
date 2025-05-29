@@ -207,7 +207,7 @@ button:active {
   padding-top: 2rem;
 }
 
-@media (max-width: 634px) {
+@media (max-width: 740px) {
   .img-div-right {
     position: relative;
   }
@@ -220,3 +220,9 @@ button:active {
   }
 }
 
+@media (min-width: 1400px) {
+  .background-img {
+    max-width: 443px;
+    max-height: 745px;
+  }
+}
