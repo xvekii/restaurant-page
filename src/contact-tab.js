@@ -4,7 +4,7 @@ const emailTxt = "mario@nin10do.com";
 const openInfo = "We're open every day, except major holidays."
 const phoneTxt = "1 (555) 555-5555"
 
-export function addContact() {
+export function createContact() {
   // It's-A-Me!
   const contactContainer = document.createElement("div");
   contactContainer.classList.add("home-container");
