@@ -1,8 +1,8 @@
 import "./styles.css";
 import marioImg from "./assets/images/mario.png";
 import { createHome } from "./home-tab.js";
-import { addMeals } from "./menu-tab.js";
-import { addContact } from "./contact-tab.js";
+import { createMenu } from "./menu-tab.js";
+import { createContact } from "./contact-tab.js";
 
 const content = document.getElementById("content");
 const menuBtn = document.querySelector(".menu-btn");
@@ -33,13 +33,13 @@ homeBtn.addEventListener("click", () => {
 
 menuBtn.addEventListener("click", () => {
   clearContent();
-  const newMenuContainer = addMeals();
+  const newMenuContainer = createMenu();
   content.appendChild(newMenuContainer);
 });
 
 contactBtn.addEventListener("click", () => {
   clearContent();
-  const newContactContainer = addContact();
+  const newContactContainer = createContact();
   content.appendChild(newContactContainer);
 });
 
