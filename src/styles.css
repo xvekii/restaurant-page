@@ -50,7 +50,7 @@
 }
 
 body {
-  min-height: 100vh;
+  max-height: 100vh;
   width: 100%;
   opacity: 0.8;
   background: seashell;
@@ -72,7 +72,6 @@ h1 {
 .container {
   display: flex;
   justify-content: center;
-  gap: 2rem;
   min-height: 50%;
 }
 
@@ -90,6 +89,10 @@ nav {
   margin-top: 2rem;
 }
 
+.img-div-right {
+  position: relative;
+}
+
 #content {
   height: 82%;
   border-radius: 9px;
@@ -102,10 +105,31 @@ button {
   font-family: 'Baloo 2';
   font-weight: bold;
   padding: 0.2rem 0.8rem;
-  font-size: 0.8rem;
-  border: none;
+  font-size: 1.1rem;
   border-radius: 3px;
   box-shadow: 2px 2px 0px black;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-tap-highlight-color: transparent;
+  cursor: pointer;
+  user-select: none;
+}
+
+button:focus {
+  outline: 3px solid seashell;
+}
+
+button:focus-visible {
+  outline-offset: 3px;
+  outline: 2px solid rgb(255, 219, 213);
+  border-radius: 3px;
+}
+
+button:active {
+  background-color: rgb(0, 0, 0);
+  color: #ffffff;
+  outline-offset: 2px;
+  box-shadow: 2px 2px 0 #3decf0;
+  border: solid #F8008C 2px;
 }
 
 .home-btn {
@@ -122,8 +146,8 @@ button {
 
 .background-img {
   display: block;
-  max-width: 90vw;
-  max-height: 80vh;
+  max-width: 310px;
+  max-height: 600px;
   object-fit: contain;
 }
 
@@ -141,7 +165,7 @@ button {
 
 .day-span {
   font-weight: bold;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   margin-right: 1rem;
 }
 
@@ -159,7 +183,7 @@ button {
 }
 
 .regular-font {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
 }
 
 .bold-font {
@@ -175,13 +199,23 @@ button {
   text-align: left;
 }
 
-.menu-section-titles {
-  color: #df1a5d;
-}
-
 .home-greeting-title {
   font-weight: bold;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   text-align: center;
   padding-top: 2rem;
 }
+
+@media (max-width: 634px) {
+  .img-div-right {
+    position: relative;
+  }
+
+  .background-img {
+    position: absolute;
+    right: 24px;
+    top: 133px;
+    width: 50px;
+  }
+}
+
