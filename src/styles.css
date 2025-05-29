@@ -112,6 +112,7 @@ button {
   -webkit-tap-highlight-color: transparent;
   cursor: pointer;
   user-select: none;
+  border: 2px solid #000000bf;
 }
 
 button:focus {
