@@ -1,7 +1,7 @@
 const meals = [
   { 
     meal: "Bowser's Flame-Grilled Koopa Burger", 
-    desc: "🔥 Extra spicy with jalapeños and fire sauce — “So hot, it breathes fire!" 
+    desc: "🔥 Extra spicy with jalapeños and fire sauce — “So hot, it breathes fire!”" 
   },
   { 
     meal: "Yoshi's Eggcellent Breakfast Wrap", 
@@ -9,7 +9,7 @@ const meals = [
   },
   { 
     meal: "Luigi's Spaghetti Mansion", 
-    desc: "🍝 Classic spaghetti with a “haunted” garlic cream sauce and green pesto — served with a flashlight breadstick."
+    desc: "🍝 Classic spaghetti with a 'haunted' garlic cream sauce and green pesto — served with a flashlight breadstick."
   },
   { 
     meal: "Thwomp Stomp Pancakes", 
@@ -39,7 +39,7 @@ const drinks = [
   },
   { 
     meal: "Wario's Garlic Shake", 
-    desc: "🧄 Vanilla milkshake with a (surprisingly good?) hint of roasted garlic — Only for the bold."
+    desc: "🧄 Vanilla milkshake with a (surprisingly good?) hint of roasted garlic — only for the bold."
   },
   { 
     meal: "Fire Flower Float", 
@@ -49,7 +49,7 @@ const drinks = [
 
 
 const menuHeading = "Menu";
-const mainTxt = "Main";
+const mainTxt = "Super Mains";
 
 export function createMenu() {
   // Menu
@@ -81,7 +81,7 @@ export function createMenu() {
   });
 
   // Sides
-  const sidesTxt = "Sides";
+  const sidesTxt = "Level-Up Sides";
   const sidesPara = document.createElement("p");
   sidesPara.classList.add("open-p", "bold-font", "menu-section-titles");
   sidesPara.textContent = sidesTxt;
@@ -100,7 +100,7 @@ export function createMenu() {
   });
 
   // Drinks
-  const drinksTxt = "Drinks";
+  const drinksTxt = "Power-Up Drinks";
   const drinksPara = document.createElement("p");
   drinksPara.classList.add("open-p", "bold-font", "menu-section-titles");
   drinksPara.textContent = drinksTxt;
